@@ -3,7 +3,6 @@ PATH
   specs:
     simple_authenticator (0.0.1)
       bcrypt
-      rails (~> 4.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -123,6 +122,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   factory_girl_rails
+  rails (~> 4.1.1)
   rspec-rails
   shoulda-matchers
   simple_authenticator!

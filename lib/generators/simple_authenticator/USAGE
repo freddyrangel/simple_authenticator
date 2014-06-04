@@ -1,0 +1,2 @@
+Description:
+  Sets up simple_authenticator. Run 'rails generator simple_authenticator user'
