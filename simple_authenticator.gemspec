@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
   s.description = "A simple authentication system that can be easily modified and extended."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "spec/factories/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.test_files = Dir["spec/**/*"]
+  s.test_files = Dir["spec/**/*", "spec/factories/**/*"]
 
   s.add_dependency "bcrypt"
 end

@@ -13,4 +13,5 @@ group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers', require: false
+  gem 'simplecov', require: false
 end

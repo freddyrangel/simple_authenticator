@@ -4,7 +4,7 @@ class SimpleAuthenticatorGenerator < ActiveRecord::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
 
   def add_user_migration_file
-    migration_template "user_migration.rb", "db/migrate/create_user_table.rb"
+    migration_template "user_migration.rb", "db/migrate/create_users_table.rb"
   end
 
   def create_model

@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140603215814) do
+ActiveRecord::Schema.define(version: 20140604172627) do
 
-  create_table "simple_authenticator_users", force: true do |t|
+  create_table "users", force: true do |t|
     t.string   "email"
     t.string   "password_digest"
     t.datetime "created_at"
